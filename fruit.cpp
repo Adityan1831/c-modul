@@ -5,19 +5,19 @@
 using namespace std;
 class Apple{
 protected:
-int num_apple;
+int apple;
 public:
-void get(int num_apple){
-this->num_apple=num_apple;
+void get(int apple){
+this->apple=apple;
 }
 
 };
 class Mangoes:public Apple{
 protected:
-int num_mango;
+int mango;
 public:
-void get(int num_mango){
-this->num_mango=num_mango;
+void get(int mango){
+this->mango=mango;
 
 }
 
